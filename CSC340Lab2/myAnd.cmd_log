@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/CSC340L/Robert_Howell/CSC340Lab2/myAnd.xst" -ofn "C:/CSC340L/Robert_Howell/CSC340Lab2/myAnd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-4 myAnd.ngc myAnd.ngd  
+map -intstyle ise -p xc3s50-pq208-4 -cm area -ir off -pr off -c 100 -o myAnd_map.ncd myAnd.ngd myAnd.pcf 
+par -w -intstyle ise -ol high -t 1 myAnd_map.ncd myAnd.ncd myAnd.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml myAnd.twx myAnd.ncd -o myAnd.twr myAnd.pcf 

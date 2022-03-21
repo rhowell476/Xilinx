@@ -1,0 +1,29 @@
+Command line:
+   myNot_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56428
+
+Sun Mar 13 19:45:48 2022
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5149.61 Meg
+
+ Total Signals          : 15
+ Total Nets             : 15
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 7
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 95
+Total Line Count : 15
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 5149.61 Meg
+
+Sun Mar 13 19:45:57 2022
+
