@@ -1,0 +1,3 @@
+verilog work "Replicator.v"
+verilog work "TestReplicator.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

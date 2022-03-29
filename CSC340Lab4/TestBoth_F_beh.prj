@@ -1,0 +1,4 @@
+verilog work "simplified.v"
+verilog work "original.v"
+verilog work "TestBoth_F.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

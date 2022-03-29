@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/CSC340L/Robert_Howell/CSC340Lab4/MUXTESTBENCH_isim_beh.exe" -prj "C:/CSC340L/Robert_Howell/CSC340Lab4/MUXTESTBENCH_beh.prj" "work.MUXTESTBENCH" "work.glbl" 

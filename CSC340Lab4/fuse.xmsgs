@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="1660" delta="unknown" >"C:/CSC340L/Robert_Howell/CSC340Lab4/mux4to1.v" Line 31: Procedural assignment to a non-register <arg fmt="%s" index="1">f_mux4to1</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="unknown" >"C:/CSC340L/Robert_Howell/CSC340Lab4/mux4to1.v" Line 31: Procedural assignment to a non-register <arg fmt="%s" index="1">f_mux4to1</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="unknown" >"C:/CSC340L/Robert_Howell/CSC340Lab4/mux4to1.v" Line 33: Procedural assignment to a non-register <arg fmt="%s" index="1">f_mux4to1</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="unknown" >"C:/CSC340L/Robert_Howell/CSC340Lab4/mux4to1.v" Line 33: Procedural assignment to a non-register <arg fmt="%s" index="1">f_mux4to1</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="unknown" >"C:/CSC340L/Robert_Howell/CSC340Lab4/mux4to1.v" Line 35: Procedural assignment to a non-register <arg fmt="%s" index="1">f_mux4to1</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="unknown" >"C:/CSC340L/Robert_Howell/CSC340Lab4/mux4to1.v" Line 35: Procedural assignment to a non-register <arg fmt="%s" index="1">f_mux4to1</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="unknown" >"C:/CSC340L/Robert_Howell/CSC340Lab4/mux4to1.v" Line 37: Procedural assignment to a non-register <arg fmt="%s" index="1">f_mux4to1</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="unknown" >"C:/CSC340L/Robert_Howell/CSC340Lab4/mux4to1.v" Line 37: Procedural assignment to a non-register <arg fmt="%s" index="1">f_mux4to1</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="unknown" >"C:/CSC340L/Robert_Howell/CSC340Lab4/mux4to1.v" Line 39: Procedural assignment to a non-register <arg fmt="%s" index="1">f_mux4to1</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="unknown" >"C:/CSC340L/Robert_Howell/CSC340Lab4/mux4to1.v" Line 39: Procedural assignment to a non-register <arg fmt="%s" index="1">f_mux4to1</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="598" delta="unknown" >"C:/CSC340L/Robert_Howell/CSC340Lab4/mux4to1.v" Line 21: Module &lt;<arg fmt="%s" index="1">mux4to1</arg>&gt; ignored due to previous errors.
+</msg>
+
+</messages>
+

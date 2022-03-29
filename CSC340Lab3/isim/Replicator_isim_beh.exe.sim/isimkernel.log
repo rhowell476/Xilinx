@@ -1,0 +1,29 @@
+Command line:
+   Replicator_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51592
+
+Wed Mar 23 06:47:11 2022
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5149.58 Meg
+
+ Total Signals          : 20
+ Total Nets             : 20
+ Total Signal Drivers   : 8
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 9
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 100
+Total Line Count : 14
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 5149.58 Meg
+
+Wed Mar 23 06:47:23 2022
+
