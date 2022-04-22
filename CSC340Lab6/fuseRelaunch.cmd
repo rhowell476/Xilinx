@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/CSC340L/Robert_Howell/CSC340Lab6/Testreg4_reset_en_isim_beh.exe" -prj "C:/CSC340L/Robert_Howell/CSC340Lab6/Testreg4_reset_en_beh.prj" "work.Testreg4_reset_en" "work.glbl" 

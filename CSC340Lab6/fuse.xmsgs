@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"C:/CSC340L/Robert_Howell/CSC340Lab6/reg4_reset_en.v" Line 26: Target &lt;<arg fmt="%s" index="1">Y0</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"C:/CSC340L/Robert_Howell/CSC340Lab6/reg4_reset_en.v" Line 27: Target &lt;<arg fmt="%s" index="1">Y1</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"C:/CSC340L/Robert_Howell/CSC340Lab6/reg4_reset_en.v" Line 28: Target &lt;<arg fmt="%s" index="1">Y2</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"C:/CSC340L/Robert_Howell/CSC340Lab6/reg4_reset_en.v" Line 29: Target &lt;<arg fmt="%s" index="1">Y3</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+</messages>
+

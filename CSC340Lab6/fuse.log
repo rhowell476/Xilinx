@@ -1,0 +1,25 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/CSC340L/Robert_Howell/CSC340Lab6/Testreg4_reset_en_isim_beh.exe -prj C:/CSC340L/Robert_Howell/CSC340Lab6/Testreg4_reset_en_beh.prj work.Testreg4_reset_en work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/CSC340L/Robert_Howell/CSC340Lab6/dflipflop.v" into library work
+Analyzing Verilog file "C:/CSC340L/Robert_Howell/CSC340Lab6/reg4_reset_en.v" into library work
+Analyzing Verilog file "C:/CSC340L/Robert_Howell/CSC340Lab6/Testreg4_reset_en.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:329 - "C:/CSC340L/Robert_Howell/CSC340Lab6/reg4_reset_en.v" Line 26: Target <Y0> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "C:/CSC340L/Robert_Howell/CSC340Lab6/reg4_reset_en.v" Line 27: Target <Y1> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "C:/CSC340L/Robert_Howell/CSC340Lab6/reg4_reset_en.v" Line 28: Target <Y2> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "C:/CSC340L/Robert_Howell/CSC340Lab6/reg4_reset_en.v" Line 29: Target <Y3> of concurrent assignment or output port connection should be a net type.
+Completed static elaboration
+Compiling module dflipflop
+Compiling module reg4_reset_en
+Compiling module Testreg4_reset_en
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 4 Verilog Units
+Built simulation executable C:/CSC340L/Robert_Howell/CSC340Lab6/Testreg4_reset_en_isim_beh.exe
+Fuse Memory Usage: 27780 KB
+Fuse CPU Usage: 312 ms
