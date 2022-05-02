@@ -1,0 +1,79 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : courseProjectSchematic.vf
+// /___/   /\     Timestamp : 04/30/2022 22:03:14
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3 -verilog C:/CSC340L/Robert_Howell/CSC340Project/courseProjectSchematic.vf -w C:/CSC340L/Robert_Howell/CSC340Project/courseProjectSchematic.sch
+//Design Name: courseProjectSchematic
+//Device: spartan3
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module courseProjectSchematic(Clock, 
+                              RESET, 
+                              X, 
+                              STALLInput, 
+                              Y);
+
+    input Clock;
+    input RESET;
+    input X;
+   output STALLInput;
+   output Y;
+   
+   wire XLXN_110;
+   wire XLXN_112;
+   wire XLXN_114;
+   wire XLXN_116;
+   wire XLXN_119;
+   wire XLXN_130;
+   wire Y_DUMMY;
+   
+   assign Y = Y_DUMMY;
+   AND5  XLXI_22 (.I0(XLXN_116), 
+                 .I1(XLXN_114), 
+                 .I2(XLXN_110), 
+                 .I3(XLXN_112), 
+                 .I4(Y_DUMMY), 
+                 .O(XLXN_119));
+   FDR #( .INIT(1'b0) ) XLXI_25 (.C(Clock), 
+                .D(XLXN_112), 
+                .R(XLXN_130), 
+                .Q(XLXN_110));
+   FDR #( .INIT(1'b0) ) XLXI_26 (.C(Clock), 
+                .D(XLXN_110), 
+                .R(XLXN_130), 
+                .Q(XLXN_114));
+   FDR #( .INIT(1'b0) ) XLXI_27 (.C(Clock), 
+                .D(XLXN_114), 
+                .R(XLXN_130), 
+                .Q(XLXN_116));
+   FDR #( .INIT(1'b0) ) XLXI_28 (.C(Clock), 
+                .D(Y_DUMMY), 
+                .R(XLXN_130), 
+                .Q(XLXN_112));
+   FDR #( .INIT(1'b0) ) XLXI_29 (.C(Clock), 
+                .D(X), 
+                .R(XLXN_130), 
+                .Q(Y_DUMMY));
+   AND2  XLXI_30 (.I0(Clock), 
+                 .I1(XLXN_119), 
+                 .O(STALLInput));
+   OR2  XLXI_51 (.I0(XLXN_119), 
+                .I1(RESET), 
+                .O(XLXN_130));
+   NAND2  XLXI_52 (.I0(Y_DUMMY), 
+                  .I1(Y_DUMMY), 
+                  .O(XLXN_130));
+endmodule

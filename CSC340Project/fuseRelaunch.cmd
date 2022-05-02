@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/CSC340L/Robert_Howell/CSC340Project/courseProjectSchematic_courseProjectSchematic_sch_tb_isim_beh.exe" -prj "C:/CSC340L/Robert_Howell/CSC340Project/courseProjectSchematic_courseProjectSchematic_sch_tb_beh.prj" "work.courseProjectSchematic_courseProjectSchematic_sch_tb" "work.glbl" 
